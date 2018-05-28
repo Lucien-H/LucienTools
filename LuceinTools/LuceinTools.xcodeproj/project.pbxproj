@@ -15,6 +15,12 @@
 		FD4E650C20BBA57E0060901C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4E650B20BBA57E0060901C /* main.m */; };
 		FD4E651620BBA57E0060901C /* LuceinToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4E651520BBA57E0060901C /* LuceinToolsTests.m */; };
 		FD4E652120BBA57F0060901C /* LuceinToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4E652020BBA57F0060901C /* LuceinToolsUITests.m */; };
+		FD4E653B20BBA6BB0060901C /* JCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4E653120BBA6BB0060901C /* JCButton.m */; };
+		FD4E653C20BBA6BB0060901C /* JCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4E653320BBA6BB0060901C /* JCTabBar.m */; };
+		FD4E653D20BBA6BB0060901C /* JCTabbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4E653520BBA6BB0060901C /* JCTabbarItem.m */; };
+		FD4E653E20BBA6BB0060901C /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4E653720BBA6BB0060901C /* NSString+Extension.m */; };
+		FD4E653F20BBA6BB0060901C /* LucienPayView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4E653920BBA6BB0060901C /* LucienPayView.m */; };
+		FD4E654020BBA6BB0060901C /* LucienTools.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4E653A20BBA6BB0060901C /* LucienTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		FD4E651C20BBA57F0060901C /* LuceinToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuceinToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD4E652020BBA57F0060901C /* LuceinToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuceinToolsUITests.m; sourceTree = "<group>"; };
 		FD4E652220BBA57F0060901C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD4E652F20BBA6BB0060901C /* JCTabbarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCTabbarItem.h; sourceTree = "<group>"; };
+		FD4E653020BBA6BB0060901C /* LucienPayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LucienPayView.h; sourceTree = "<group>"; };
+		FD4E653120BBA6BB0060901C /* JCButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCButton.m; sourceTree = "<group>"; };
+		FD4E653220BBA6BB0060901C /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		FD4E653320BBA6BB0060901C /* JCTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCTabBar.m; sourceTree = "<group>"; };
+		FD4E653420BBA6BB0060901C /* LucienTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LucienTools.h; sourceTree = "<group>"; };
+		FD4E653520BBA6BB0060901C /* JCTabbarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCTabbarItem.m; sourceTree = "<group>"; };
+		FD4E653620BBA6BB0060901C /* JCTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCTabBar.h; sourceTree = "<group>"; };
+		FD4E653720BBA6BB0060901C /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		FD4E653820BBA6BB0060901C /* JCButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCButton.h; sourceTree = "<group>"; };
+		FD4E653920BBA6BB0060901C /* LucienPayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LucienPayView.m; sourceTree = "<group>"; };
+		FD4E653A20BBA6BB0060901C /* LucienTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LucienTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +119,7 @@
 		FD4E64FB20BBA57D0060901C /* LuceinTools */ = {
 			isa = PBXGroup;
 			children = (
+				FD4E652E20BBA6BB0060901C /* Tools */,
 				FD4E64FC20BBA57D0060901C /* AppDelegate.h */,
 				FD4E64FD20BBA57D0060901C /* AppDelegate.m */,
 				FD4E64FF20BBA57D0060901C /* ViewController.h */,
@@ -130,6 +149,25 @@
 				FD4E652220BBA57F0060901C /* Info.plist */,
 			);
 			path = LuceinToolsUITests;
+			sourceTree = "<group>";
+		};
+		FD4E652E20BBA6BB0060901C /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				FD4E652F20BBA6BB0060901C /* JCTabbarItem.h */,
+				FD4E653020BBA6BB0060901C /* LucienPayView.h */,
+				FD4E653120BBA6BB0060901C /* JCButton.m */,
+				FD4E653220BBA6BB0060901C /* NSString+Extension.h */,
+				FD4E653320BBA6BB0060901C /* JCTabBar.m */,
+				FD4E653420BBA6BB0060901C /* LucienTools.h */,
+				FD4E653520BBA6BB0060901C /* JCTabbarItem.m */,
+				FD4E653620BBA6BB0060901C /* JCTabBar.h */,
+				FD4E653720BBA6BB0060901C /* NSString+Extension.m */,
+				FD4E653820BBA6BB0060901C /* JCButton.h */,
+				FD4E653920BBA6BB0060901C /* LucienPayView.m */,
+				FD4E653A20BBA6BB0060901C /* LucienTools.m */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +301,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD4E650120BBA57D0060901C /* ViewController.m in Sources */,
+				FD4E654020BBA6BB0060901C /* LucienTools.m in Sources */,
 				FD4E650C20BBA57E0060901C /* main.m in Sources */,
+				FD4E653B20BBA6BB0060901C /* JCButton.m in Sources */,
+				FD4E653C20BBA6BB0060901C /* JCTabBar.m in Sources */,
 				FD4E64FE20BBA57D0060901C /* AppDelegate.m in Sources */,
+				FD4E653D20BBA6BB0060901C /* JCTabbarItem.m in Sources */,
+				FD4E653E20BBA6BB0060901C /* NSString+Extension.m in Sources */,
+				FD4E653F20BBA6BB0060901C /* LucienPayView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
