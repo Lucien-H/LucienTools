@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD4E64FE20BBA57D0060901C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4E64FD20BBA57D0060901C /* AppDelegate.m */; };
+		FD4E650120BBA57D0060901C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4E650020BBA57D0060901C /* ViewController.m */; };
+		FD4E650420BBA57D0060901C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4E650220BBA57D0060901C /* Main.storyboard */; };
+		FD4E650620BBA57E0060901C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4E650520BBA57E0060901C /* Assets.xcassets */; };
+		FD4E650920BBA57E0060901C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4E650720BBA57E0060901C /* LaunchScreen.storyboard */; };
+		FD4E650C20BBA57E0060901C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4E650B20BBA57E0060901C /* main.m */; };
+		FD4E651620BBA57E0060901C /* LuceinToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4E651520BBA57E0060901C /* LuceinToolsTests.m */; };
+		FD4E652120BBA57F0060901C /* LuceinToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4E652020BBA57F0060901C /* LuceinToolsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD4E651220BBA57E0060901C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD4E64F120BBA57D0060901C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD4E64F820BBA57D0060901C;
+			remoteInfo = LuceinTools;
+		};
+		FD4E651D20BBA57F0060901C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD4E64F120BBA57D0060901C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD4E64F820BBA57D0060901C;
+			remoteInfo = LuceinTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD4E64F920BBA57D0060901C /* LuceinTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuceinTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD4E64FC20BBA57D0060901C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD4E64FD20BBA57D0060901C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD4E64FF20BBA57D0060901C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD4E650020BBA57D0060901C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD4E650320BBA57D0060901C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD4E650520BBA57E0060901C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD4E650820BBA57E0060901C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD4E650A20BBA57E0060901C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD4E650B20BBA57E0060901C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD4E651120BBA57E0060901C /* LuceinToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuceinToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD4E651520BBA57E0060901C /* LuceinToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuceinToolsTests.m; sourceTree = "<group>"; };
+		FD4E651720BBA57E0060901C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD4E651C20BBA57F0060901C /* LuceinToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuceinToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD4E652020BBA57F0060901C /* LuceinToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuceinToolsUITests.m; sourceTree = "<group>"; };
+		FD4E652220BBA57F0060901C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD4E64F620BBA57D0060901C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4E650E20BBA57E0060901C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4E651920BBA57F0060901C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD4E64F020BBA57D0060901C = {
+			isa = PBXGroup;
+			children = (
+				FD4E64FB20BBA57D0060901C /* LuceinTools */,
+				FD4E651420BBA57E0060901C /* LuceinToolsTests */,
+				FD4E651F20BBA57F0060901C /* LuceinToolsUITests */,
+				FD4E64FA20BBA57D0060901C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD4E64FA20BBA57D0060901C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD4E64F920BBA57D0060901C /* LuceinTools.app */,
+				FD4E651120BBA57E0060901C /* LuceinToolsTests.xctest */,
+				FD4E651C20BBA57F0060901C /* LuceinToolsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD4E64FB20BBA57D0060901C /* LuceinTools */ = {
+			isa = PBXGroup;
+			children = (
+				FD4E64FC20BBA57D0060901C /* AppDelegate.h */,
+				FD4E64FD20BBA57D0060901C /* AppDelegate.m */,
+				FD4E64FF20BBA57D0060901C /* ViewController.h */,
+				FD4E650020BBA57D0060901C /* ViewController.m */,
+				FD4E650220BBA57D0060901C /* Main.storyboard */,
+				FD4E650520BBA57E0060901C /* Assets.xcassets */,
+				FD4E650720BBA57E0060901C /* LaunchScreen.storyboard */,
+				FD4E650A20BBA57E0060901C /* Info.plist */,
+				FD4E650B20BBA57E0060901C /* main.m */,
+			);
+			path = LuceinTools;
+			sourceTree = "<group>";
+		};
+		FD4E651420BBA57E0060901C /* LuceinToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD4E651520BBA57E0060901C /* LuceinToolsTests.m */,
+				FD4E651720BBA57E0060901C /* Info.plist */,
+			);
+			path = LuceinToolsTests;
+			sourceTree = "<group>";
+		};
+		FD4E651F20BBA57F0060901C /* LuceinToolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD4E652020BBA57F0060901C /* LuceinToolsUITests.m */,
+				FD4E652220BBA57F0060901C /* Info.plist */,
+			);
+			path = LuceinToolsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD4E64F820BBA57D0060901C /* LuceinTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD4E652520BBA57F0060901C /* Build configuration list for PBXNativeTarget "LuceinTools" */;
+			buildPhases = (
+				FD4E64F520BBA57D0060901C /* Sources */,
+				FD4E64F620BBA57D0060901C /* Frameworks */,
+				FD4E64F720BBA57D0060901C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuceinTools;
+			productName = LuceinTools;
+			productReference = FD4E64F920BBA57D0060901C /* LuceinTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD4E651020BBA57E0060901C /* LuceinToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD4E652820BBA57F0060901C /* Build configuration list for PBXNativeTarget "LuceinToolsTests" */;
+			buildPhases = (
+				FD4E650D20BBA57E0060901C /* Sources */,
+				FD4E650E20BBA57E0060901C /* Frameworks */,
+				FD4E650F20BBA57E0060901C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD4E651320BBA57E0060901C /* PBXTargetDependency */,
+			);
+			name = LuceinToolsTests;
+			productName = LuceinToolsTests;
+			productReference = FD4E651120BBA57E0060901C /* LuceinToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD4E651B20BBA57F0060901C /* LuceinToolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD4E652B20BBA57F0060901C /* Build configuration list for PBXNativeTarget "LuceinToolsUITests" */;
+			buildPhases = (
+				FD4E651820BBA57F0060901C /* Sources */,
+				FD4E651920BBA57F0060901C /* Frameworks */,
+				FD4E651A20BBA57F0060901C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD4E651E20BBA57F0060901C /* PBXTargetDependency */,
+			);
+			name = LuceinToolsUITests;
+			productName = LuceinToolsUITests;
+			productReference = FD4E651C20BBA57F0060901C /* LuceinToolsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD4E64F120BBA57D0060901C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Lucien;
+				TargetAttributes = {
+					FD4E64F820BBA57D0060901C = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					FD4E651020BBA57E0060901C = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = FD4E64F820BBA57D0060901C;
+					};
+					FD4E651B20BBA57F0060901C = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = FD4E64F820BBA57D0060901C;
+					};
+				};
+			};
+			buildConfigurationList = FD4E64F420BBA57D0060901C /* Build configuration list for PBXProject "LuceinTools" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD4E64F020BBA57D0060901C;
+			productRefGroup = FD4E64FA20BBA57D0060901C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD4E64F820BBA57D0060901C /* LuceinTools */,
+				FD4E651020BBA57E0060901C /* LuceinToolsTests */,
+				FD4E651B20BBA57F0060901C /* LuceinToolsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD4E64F720BBA57D0060901C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4E650920BBA57E0060901C /* LaunchScreen.storyboard in Resources */,
+				FD4E650620BBA57E0060901C /* Assets.xcassets in Resources */,
+				FD4E650420BBA57D0060901C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4E650F20BBA57E0060901C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4E651A20BBA57F0060901C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD4E64F520BBA57D0060901C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4E650120BBA57D0060901C /* ViewController.m in Sources */,
+				FD4E650C20BBA57E0060901C /* main.m in Sources */,
+				FD4E64FE20BBA57D0060901C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4E650D20BBA57E0060901C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4E651620BBA57E0060901C /* LuceinToolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4E651820BBA57F0060901C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4E652120BBA57F0060901C /* LuceinToolsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD4E651320BBA57E0060901C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD4E64F820BBA57D0060901C /* LuceinTools */;
+			targetProxy = FD4E651220BBA57E0060901C /* PBXContainerItemProxy */;
+		};
+		FD4E651E20BBA57F0060901C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD4E64F820BBA57D0060901C /* LuceinTools */;
+			targetProxy = FD4E651D20BBA57F0060901C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD4E650220BBA57D0060901C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD4E650320BBA57D0060901C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD4E650720BBA57E0060901C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD4E650820BBA57E0060901C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD4E652320BBA57F0060901C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD4E652420BBA57F0060901C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD4E652620BBA57F0060901C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuceinTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lucien.LuceinTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD4E652720BBA57F0060901C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuceinTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lucien.LuceinTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD4E652920BBA57F0060901C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuceinToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lucien.LuceinToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuceinTools.app/LuceinTools";
+			};
+			name = Debug;
+		};
+		FD4E652A20BBA57F0060901C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuceinToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lucien.LuceinToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuceinTools.app/LuceinTools";
+			};
+			name = Release;
+		};
+		FD4E652C20BBA57F0060901C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuceinToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lucien.LuceinToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LuceinTools;
+			};
+			name = Debug;
+		};
+		FD4E652D20BBA57F0060901C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuceinToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lucien.LuceinToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LuceinTools;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD4E64F420BBA57D0060901C /* Build configuration list for PBXProject "LuceinTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD4E652320BBA57F0060901C /* Debug */,
+				FD4E652420BBA57F0060901C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD4E652520BBA57F0060901C /* Build configuration list for PBXNativeTarget "LuceinTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD4E652620BBA57F0060901C /* Debug */,
+				FD4E652720BBA57F0060901C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD4E652820BBA57F0060901C /* Build configuration list for PBXNativeTarget "LuceinToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD4E652920BBA57F0060901C /* Debug */,
+				FD4E652A20BBA57F0060901C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD4E652B20BBA57F0060901C /* Build configuration list for PBXNativeTarget "LuceinToolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD4E652C20BBA57F0060901C /* Debug */,
+				FD4E652D20BBA57F0060901C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD4E64F120BBA57D0060901C /* Project object */;
+}
