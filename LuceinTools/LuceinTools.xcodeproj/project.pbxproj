@@ -21,7 +21,6 @@
 		FD4E653E20BBA6BB0060901C /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4E653720BBA6BB0060901C /* NSString+Extension.m */; };
 		FD4E653F20BBA6BB0060901C /* LucienPayView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4E653920BBA6BB0060901C /* LucienPayView.m */; };
 		FD4E654020BBA6BB0060901C /* LucienTools.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4E653A20BBA6BB0060901C /* LucienTools.m */; };
-		FD4E654320BBA9AD0060901C /* JXUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4E654120BBA9AD0060901C /* JXUIKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,8 +69,6 @@
 		FD4E653820BBA6BB0060901C /* JCButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCButton.h; sourceTree = "<group>"; };
 		FD4E653920BBA6BB0060901C /* LucienPayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LucienPayView.m; sourceTree = "<group>"; };
 		FD4E653A20BBA6BB0060901C /* LucienTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LucienTools.m; sourceTree = "<group>"; };
-		FD4E654120BBA9AD0060901C /* JXUIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXUIKit.m; sourceTree = "<group>"; };
-		FD4E654220BBA9AD0060901C /* JXUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXUIKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,8 +154,6 @@
 		FD4E652E20BBA6BB0060901C /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				FD4E654220BBA9AD0060901C /* JXUIKit.h */,
-				FD4E654120BBA9AD0060901C /* JXUIKit.m */,
 				FD4E652F20BBA6BB0060901C /* JCTabbarItem.h */,
 				FD4E653020BBA6BB0060901C /* LucienPayView.h */,
 				FD4E653120BBA6BB0060901C /* JCButton.m */,
@@ -309,7 +304,6 @@
 				FD4E654020BBA6BB0060901C /* LucienTools.m in Sources */,
 				FD4E650C20BBA57E0060901C /* main.m in Sources */,
 				FD4E653B20BBA6BB0060901C /* JCButton.m in Sources */,
-				FD4E654320BBA9AD0060901C /* JXUIKit.m in Sources */,
 				FD4E653C20BBA6BB0060901C /* JCTabBar.m in Sources */,
 				FD4E64FE20BBA57D0060901C /* AppDelegate.m in Sources */,
 				FD4E653D20BBA6BB0060901C /* JCTabbarItem.m in Sources */,
